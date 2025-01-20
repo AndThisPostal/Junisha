@@ -1,0 +1,189 @@
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.AssemblyReference.cache
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\MainWindow.g.cs
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\ChaptersPage.g.cs
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\MenuPage.g.cs
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\App.g.cs
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0_MarkupCompile.cache
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0_MarkupCompile.lref
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Junisha_CSharp_Zero_App0.exe.config
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Junisha_CSharp_Zero_App0.exe
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Junisha_CSharp_Zero_App0.pdb
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignColors.dll
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignThemes.Wpf.dll
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Microsoft.Xaml.Behaviors.dll
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignColors.pdb
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignThemes.Wpf.pdb
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignThemes.Wpf.xml
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Microsoft.Xaml.Behaviors.xml
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_1_Page.g.cs
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\App.baml
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\MainWindow.baml
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\ChaptersPage.baml
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_1_Page.baml
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\MenuPage.baml
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.g.resources
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.Properties.Resources.resources
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.GenerateResource.cache
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.CoreCompileInputs.cache
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.CopyComplete
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.exe
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.pdb
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\AboutPage.g.cs
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\AboutPage.baml
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_2_Page.g.cs
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_3_Page.g.cs
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_4_Page.g.cs
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_5_Page.g.cs
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_2_Page.baml
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_3_Page.baml
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_4_Page.baml
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_5_Page.baml
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\EntityFramework.dll
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\EntityFramework.xml
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\ru\EntityFramework.resources.dll
+O:\AnikinDanila\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0_Content.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Junisha_CSharp_Zero_App0.exe.config
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Junisha_CSharp_Zero_App0.exe
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Junisha_CSharp_Zero_App0.pdb
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\EntityFramework.dll
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignColors.dll
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\EntityFramework.xml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignColors.pdb
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.AssemblyReference.cache
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.SuggestedBindingRedirects.cache
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\MainWindow.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\AboutPage.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\ChaptersPage.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_1_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_2_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_3_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_4_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_5_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\MenuPage.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\App.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0_Content.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0_MarkupCompile.cache
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0_MarkupCompile.lref
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\App.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\MainWindow.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\AboutPage.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\ChaptersPage.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_1_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_2_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_3_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_4_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_5_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\MenuPage.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.g.resources
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.Properties.Resources.resources
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.GenerateResource.cache
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.CoreCompileInputs.cache
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.CopyComplete
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.exe
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.pdb
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_10_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_11_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_6_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_7_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_8_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_9_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_10_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_11_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_6_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_7_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_8_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_9_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_12_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_12_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_13_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_14_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_15_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_13_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_14_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_15_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\AuthPage.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\RegPage.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\AuthPage.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\RegPage.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\TestTaskPage.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\TestTaskPage.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Junisha_CSharp_Zero_App0.exe.config
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Junisha_CSharp_Zero_App0.exe
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Junisha_CSharp_Zero_App0.pdb
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\EntityFramework.dll
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignColors.dll
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\EntityFramework.xml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignColors.pdb
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.AssemblyReference.cache
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.SuggestedBindingRedirects.cache
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\MainWindow.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\AboutPage.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\AuthPage.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\ChaptersPage.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_10_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_11_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_12_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_13_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_14_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_15_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_1_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_2_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_3_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_4_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_5_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_6_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_7_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_8_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_9_Page.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\MenuPage.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\RegPage.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\TestTaskPage.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\App.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0_Content.g.cs
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0_MarkupCompile.cache
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0_MarkupCompile.lref
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\App.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\MainWindow.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\AboutPage.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\AuthPage.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\ChaptersPage.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_10_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_11_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_12_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_13_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_14_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_15_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_1_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_2_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_3_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_4_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_5_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_6_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_7_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_8_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\Chapter_9_Page.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\MenuPage.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\RegPage.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\PageFolder\TestTaskPage.baml
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.g.resources
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.Properties.Resources.resources
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.GenerateResource.cache
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.CoreCompileInputs.cache
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.csproj.CopyComplete
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.exe
+C:\Users\MrZin\OneDrive\Рабочий стол\От Диплома\Junisha_CSharp_Zero_App0\Junisha_CSharp_Zero_App0\obj\Debug\Junisha_CSharp_Zero_App0.pdb

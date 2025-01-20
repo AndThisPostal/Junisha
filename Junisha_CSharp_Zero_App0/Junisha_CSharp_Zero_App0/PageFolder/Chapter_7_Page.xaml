@@ -1,0 +1,74 @@
+﻿<Page x:Class="Junisha_CSharp_Zero_App0.PageFolder.Chapter_7_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Junisha_CSharp_Zero_App0.PageFolder"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Chapter_7_Page">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition Height="1*" MaxHeight="1000"/>
+            <RowDefinition Height="0.05*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.1*"/>
+            <ColumnDefinition Width="0.6*" MaxWidth="800"/>
+            <ColumnDefinition Width="0.1*"/>
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Row="1" Grid.Column="1">
+            <Border Margin="10" Padding="0" CornerRadius="10" Grid.Row="1" Grid.Column="1"
+                Background="#31363F"  BorderBrush="#76ABAE" BorderThickness="5">
+                <StackPanel Margin="10" x:Name="Text_1_Block" Visibility="Visible">
+                    <TextBlock Foreground="#76ABAE" Text="Глава 7 – Работа со строками" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Ранее в седьмой главе мы использовали строки для создания хоть какого-то интерфейса. Но это была поверхностная мелочь, пора более подробно рассказать, как ими пользоваться."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Во-первых, вспомним что строки можно объявить через кавычки – “” (КЭП)"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Во-вторых, можно использовать их как шаблон для оповещений через Интерполяцию строки:"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Для этого нужно ввести перед строкой знак доллара и те части что будут заменяться данными из переменных – вписать имя переменной в фигурных скобках."/>
+                    <Image Source="/Resource/Image/7glava1.png" />
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Теперь пора изменить содержимое строки:"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            1)	Substring(int startIndex, int length): Возвращает подстроку длиной length, начиная с указанного индекса startIndex. Это можно использовать для паролей."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            2)	ToUpper() и ToLower(): Преобразует все символы строки в верхний или нижний регистр соответственно. Полезно, когда ответ могут ввести по-разному."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            3)	Contains(string value): Проверяет, содержит ли строка указанное значение. Как раз для автоматической цензуры)"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Есть ещё много таких методов, но пока мы остановимся на этих."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Например, вы можете использовать их для MessageBox’ов – окон с оповещением о чём угодно. Просто вставь нужный String и вызови данный метод."/>
+                    <Button x:Name="Btn_Next" Content=" Следущая глава " Margin="10" MinWidth="30" MinHeight="30" Grid.RowSpan="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Btn_Next_Click">
+                        <Button.Resources>
+                            <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                <Setter Property="Padding" Value="3"/>
+                                <Setter Property="Background" Value="#0076ABAE"/>
+                                <Setter Property="BorderThickness" Value="3"/>
+                                <Setter Property="Foreground" Value="{StaticResource BtnOrangeBrush}"/>
+                                <Setter Property="BorderBrush" Value="{StaticResource BtnOrangeBrush}"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
+                </StackPanel>
+            </Border>
+        </ScrollViewer>
+
+
+        <Button x:Name="Btn_Back" Margin="10"
+                MinWidth="30" MinHeight="30" 
+                Grid.RowSpan="2" Grid.ColumnSpan="2"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="Btn_Back_Click">
+            <Button.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                    <Setter Property="Padding" Value="3"/>
+                    <Setter Property="Background" Value="#0076ABAE"/>
+                    <Setter Property="BorderBrush" Value="{StaticResource BtnBlueBrush}"/>
+                    <Setter Property="BorderThickness" Value="3"/>
+                </Style>
+            </Button.Resources>
+            <Image Source="/Resource/Undo-64 (1).png" HorizontalAlignment="Center"/>
+        </Button>
+    </Grid>
+</Page>

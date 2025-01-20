@@ -1,0 +1,123 @@
+﻿<Page x:Class="Junisha_CSharp_Zero_App0.PageFolder.Chapter_5_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Junisha_CSharp_Zero_App0.PageFolder"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Chapter_5_Page">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition Height="1*" MaxHeight="1000"/>
+            <RowDefinition Height="0.05*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.1*"/>
+            <ColumnDefinition Width="0.6*" MaxWidth="800"/>
+            <ColumnDefinition Width="0.1*"/>
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Row="1" Grid.Column="1">
+            <Border Margin="10" Padding="0" CornerRadius="10" Grid.Row="1" Grid.Column="1"
+                Background="#31363F"  BorderBrush="#76ABAE" BorderThickness="5">
+                <StackPanel Margin="10" x:Name="Text_1_Block" Visibility="Visible">
+                    <TextBlock Foreground="#76ABAE" Text="Глава 5 – Выбор с помощью IfElse" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Проблема предыдущего “калькулятора” что он выдавал все операции разом. Но с помощью IfElse мы разделим их щепоткой логики. Сперва глянь на строение IfElse:"/>
+
+                    <Image Source="/Resource/Image/ifelse00.png" Margin="50 10"/>
+
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Это не весь потенциал IfElse но пока этого нам хватит."/>
+
+                    <Button x:Name="Btn_questz" Content=" Далее " Margin="10" MinWidth="30" MinHeight="30" Grid.RowSpan="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Btn_questz_Click">
+                        <Button.Resources>
+                            <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                <Setter Property="Padding" Value="3"/>
+                                <Setter Property="Background" Value="#0076ABAE"/>
+                                <Setter Property="BorderThickness" Value="3"/>
+                                <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    
+                    <StackPanel x:Name="StackBlock1" Visibility="Hidden" Height="0">
+                        <TextBlock Name="Text5" Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center"
+                                   Margin="10" Width="650" FontSize="16"/>
+                        <StackPanel x:Name="Quest5" Visibility="Visible">
+                            <TextBlock Text="Задача со слайдером:" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+                            <TextBlock Text="Наглядная задача с работай IfElse" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontSize="20"/>
+
+                            <TextBlock x:Name="SliderQuest1" Text="if (N = 5)" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontSize="20"/>
+                            <StackPanel Orientation="Horizontal">
+                                <Slider Minimum="0"  Maximum="10" Width="500" TickFrequency="{Binding DiscreteHorizontal.TickFrequency}" Height="30" Margin="20"
+                                    TickPlacement="BottomRight" Value="1" Name="Slider1" ValueChanged="Slider_ValueChanged"  Foreground="{StaticResource BtnGrayBrush}"/>
+                            </StackPanel>
+
+                            <TextBlock x:Name="SliderQuest2" Text="if (N &lt; 2)" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontSize="20"/>
+                            <StackPanel Orientation="Horizontal">
+                                <Slider Minimum="0"  Maximum="10"  Width="500" TickFrequency="{Binding DiscreteHorizontal.TickFrequency}" Height="30" Margin="20"
+                                    TickPlacement="BottomRight" Value="1" Name="Slider2" ValueChanged="Slider_ValueChanged"  Foreground="{StaticResource BtnGrayBrush}"/>
+                            </StackPanel>
+
+                            <TextBlock x:Name="SliderQuest3" Text="if (N &gt; 9)" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontSize="20"/>
+                            <StackPanel Orientation="Horizontal">
+                                <Slider Minimum="0"  Maximum="10" Width="500" TickFrequency="{Binding DiscreteHorizontal.TickFrequency}" Height="30" Margin="20"
+                                    TickPlacement="BottomRight" Value="1" Name="Slider3" ValueChanged="Slider_ValueChanged"  Foreground="{StaticResource BtnGrayBrush}"/>
+                            </StackPanel>
+
+                        </StackPanel>
+                    </StackPanel>
+                    
+                    <StackPanel Margin="10" x:Name="Text_2_Block" Visibility="Hidden">
+                        
+                        <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Чудно теперь наш калькулятор может выбирать 4 операции, и у него есть первый баг."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Для выбора мы используем числа от 1 до 4, но что если выбрать любое другое? Верно, приложение вылетит тк это нарушение, а компьютер всегда следует инструкции."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Как это починить? Использовать вторую часть IfElse = Else!
+Он срабатывает, когда первый вариант не срабатывает и идёт дальше или выдаёт последний код.
+"/>
+                    <Image Source="/Resource/Image/ifelse11.png" Margin="50 10"/>
+
+                    </StackPanel>
+
+
+                    <StackPanel Margin="10" x:Name="Text_3_Block" Visibility="Hidden">
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Чудесно, теперь твоё знание логических операций сравнимо с автором Yandere Simulator! Он почему-то использовал только IfElse, что из-за обработки сложных логических операций такой тяжёлый, в отличии от SwitchCase что просто принимает одно из заранее написанных значений."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Хотя это использование IfElse не гарантирует лаги. Хоть в Undertale тоже с кодом жутко, но он собран корректно отчего вы не замечаете тот кошмар итальянца под капотом. "/>
+                    <Button x:Name="Btn_Next" Content=" Следущая глава " Margin="10" MinWidth="30" MinHeight="30" Grid.RowSpan="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Btn_Next_Click">
+                        <Button.Resources>
+                            <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                <Setter Property="Padding" Value="3"/>
+                                <Setter Property="Background" Value="#0076ABAE"/>
+                                <Setter Property="BorderThickness" Value="3"/>
+                                <Setter Property="Foreground" Value="{StaticResource BtnOrangeBrush}"/>
+                                <Setter Property="BorderBrush" Value="{StaticResource BtnOrangeBrush}"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </ScrollViewer>
+
+        <Button x:Name="Btn_Back" Margin="10"
+                MinWidth="30" MinHeight="30" 
+                Grid.RowSpan="2" Grid.ColumnSpan="2"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="Btn_Back_Click">
+            <Button.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                    <Setter Property="Padding" Value="3"/>
+                    <Setter Property="Background" Value="#0076ABAE"/>
+                    <Setter Property="BorderBrush" Value="{StaticResource BtnBlueBrush}"/>
+                    <Setter Property="BorderThickness" Value="3"/>
+                </Style>
+            </Button.Resources>
+            <Image Source="/Resource/Undo-64 (1).png" HorizontalAlignment="Center"/>
+        </Button>
+    </Grid>
+</Page>

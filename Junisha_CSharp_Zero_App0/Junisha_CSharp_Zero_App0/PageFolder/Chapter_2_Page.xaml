@@ -1,0 +1,265 @@
+﻿<Page x:Class="Junisha_CSharp_Zero_App0.PageFolder.Chapter_2_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Junisha_CSharp_Zero_App0.PageFolder"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Chapter_2_Page">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition Height="1*" MaxHeight="1000"/>
+            <RowDefinition Height="0.05*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.1*"/>
+            <ColumnDefinition Width="0.6*" MaxWidth="800"/>
+            <ColumnDefinition Width="0.1*"/>
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Row="1" Grid.Column="1">
+
+            <Border Margin="10" Padding="0" CornerRadius="10" Grid.Row="1" Grid.Column="1"
+                Background="#31363F"  BorderBrush="{StaticResource BtnBlueBrush}" BorderThickness="5">
+                <StackPanel>
+                    <TextBlock Foreground="{StaticResource BtnBlueBrush}" Name="ChapterName" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+                    <Image Source="/Resource/Image/Box_1.png" Width="250"/>
+                    <StackPanel x:Name="StackBlock1" Visibility="Visible" Height="auto">
+                        <TextBlock Text="Для создания своего первого приложения с нуля, вам нужно узнать две вещи: Функции и Переменные, начнём с последних тк они чуть легче. Переменные — это виртуальные ящики с данными, нужные для манипуляции со значениями. Они состоят из 3 частей: " Foreground="{StaticResource BtnBlueBrush}" TextWrapping="Wrap"
+                                   HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16"/>
+                        <Image Source="/Resource/Image/IntName.png" Margin="10" Width="350"/>
+                        <TextBlock Name="Text1" Foreground="{StaticResource BtnBlueBrush}" TextWrapping="Wrap"
+                                   HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16"/>
+                    </StackPanel>
+
+                    <StackPanel x:Name="StackBlock2" Visibility="Visible">
+                        <StackPanel x:Name="Quest1" Visibility="Visible">
+
+                            <TextBlock Text="Задача первая:" Foreground="{StaticResource BtnBlueBrush}"  HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+                            <TextBlock Text="Что может содержать число 15?" Foreground="{StaticResource BtnBlueBrush}"  HorizontalAlignment="Center" Margin="10" FontWeight="Light"/>
+                            <Button x:Name="Question1_True" Width="150" Margin="20 5" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Переменная int" Click="Question_1_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button x:Name="Question1_False_1" Width="150" Margin="20 5" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Переменная string" Click="Question_1_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button x:Name="Question1_False_2" Width="150" Margin="20 5" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Переменная bool" Click="Question_1_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button x:Name="Question1_False_3" Width="150" Margin="20 5" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Переменная char" Click="Question_1_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                        </StackPanel>
+                        <StackPanel x:Name="Quest2" Visibility="Hidden" Height="0">
+                                    <TextBlock Text="Задача вторая:" Foreground="{StaticResource BtnBlueBrush}"  HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+                            <TextBlock Text="Что может содержать текст?" Foreground="{StaticResource BtnBlueBrush}"  HorizontalAlignment="Center" Margin="10" FontWeight="Light"/>
+                            <Button x:Name="Question2_True" Width="150" Margin="20 5" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Переменная int" Click="Question_2_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button x:Name="Question2_False_1" Width="150" Margin="20 5" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Переменная string" Click="Question_2_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button x:Name="Question2_False_2" Width="150" Margin="20 5" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Переменная bool" Click="Question_2_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button x:Name="Question2_False_3" Width="150" Margin="20 5" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Переменная char" Click="Question_2_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                        </StackPanel>
+                        <StackPanel x:Name="Quest3" Visibility="Hidden" Height="0">
+                            <TextBlock Text="Задача третья:" Foreground="{StaticResource BtnBlueBrush}"  HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+                            <TextBlock Text="Что может содержать ИСТИНУ?" Foreground="{StaticResource BtnBlueBrush}"  HorizontalAlignment="Center" Margin="10" FontWeight="Light"/>
+                            <Button x:Name="Question3_True" Width="150" Margin="20 5" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Переменная int" Click="Question_3_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button x:Name="Question3_False_1" Width="150" Margin="20 5" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Переменная string" Click="Question_3_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button x:Name="Question3_False_2" Width="150" Margin="20 5" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Переменная bool" Click="Question_3_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button x:Name="Question3_False_3" Width="150" Margin="20 5" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Переменная char" Click="Question_3_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel x:Name="StackBlock3" Visibility="Hidden" Height="0">
+                        <StackPanel x:Name="Quest4" Visibility="Visible">
+                            <TextBlock Text="Задача с текстбоксами:" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+                            <TextBlock Text="Заполни пропуски" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontWeight="Light"/>
+
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="NumberTest" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontWeight="Light"/>
+                                <TextBox Text="???" Name="Textbox1" Foreground="{StaticResource BtnBlueBrush}" Margin="0 0" CaretBrush="{StaticResource BtnGreenBrush}" TextAlignment="Center"
+                                         SelectionBrush="{StaticResource BtnGreenBrush}" BorderThickness="1" BorderBrush="{StaticResource BtnBlueBrush}" Width="50" Height="25"/>
+                                <TextBlock Text=" = 15;" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontWeight="Light"/>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="TextTest" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontWeight="Light"/>
+                                <TextBox Text="???" Name="Textbox2" Foreground="{StaticResource BtnBlueBrush}" Margin="0 0" CaretBrush="{StaticResource BtnGreenBrush}" TextAlignment="Center"
+                                         SelectionBrush="{StaticResource BtnGreenBrush}" BorderThickness="1" BorderBrush="{StaticResource BtnBlueBrush}" Width="50" Height="25"/>
+                                <TextBlock Text=" = ''TextTextText'';" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontWeight="Light"/>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="LogicTest" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontWeight="Light"/>
+                                <TextBox Text="???" Name="Textbox3" Foreground="{StaticResource BtnBlueBrush}" Margin="0 0" CaretBrush="{StaticResource BtnGreenBrush}" TextAlignment="Center"
+                                         SelectionBrush="{StaticResource BtnGreenBrush}" BorderThickness="1" BorderBrush="{StaticResource BtnBlueBrush}" Width="50" Height="25"/>
+                                <TextBlock Text=" = True;" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontWeight="Light"/>
+                            </StackPanel>
+
+                            <Button x:Name="Question2_Check" Width="150" Margin="20 25" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Проверить" Click="Question2_Check_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel x:Name="StackBlock4" Visibility="Hidden" Height="auto">
+                        <TextBlock Name="Text2" Foreground="{StaticResource BtnBlueBrush}" TextWrapping="Wrap"
+                                   HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16"/>
+                        <Button x:Name="Btn_Next" Content=" Следущая глава " Margin="10" MinWidth="30" MinHeight="30" Grid.RowSpan="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Btn_Next_Click">
+                            <Button.Resources>
+                                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                    <Setter Property="Padding" Value="3"/>
+                                    <Setter Property="Background" Value="#0076ABAE"/>
+                                    <Setter Property="BorderThickness" Value="3"/>
+                                    <Setter Property="Foreground" Value="{StaticResource BtnOrangeBrush}"/>
+                                    <Setter Property="BorderBrush" Value="{StaticResource BtnOrangeBrush}"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+        </ScrollViewer>
+
+        <Button x:Name="Btn_Back" Margin="10"
+                MinWidth="30" MinHeight="30" 
+                Grid.RowSpan="2" Grid.ColumnSpan="2"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="Btn_Back_Click">
+            <Button.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                    <Setter Property="Padding" Value="3"/>
+                    <Setter Property="Background" Value="#0076ABAE"/>
+                    <Setter Property="BorderBrush" Value="{StaticResource BtnBlueBrush}"/>
+                    <Setter Property="BorderThickness" Value="3"/>
+                </Style>
+            </Button.Resources>
+            <Image Source="/Resource/Undo-64 (1).png" HorizontalAlignment="Center"/>
+        </Button>
+    </Grid>
+</Page>

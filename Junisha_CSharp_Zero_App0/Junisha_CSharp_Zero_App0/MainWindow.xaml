@@ -1,0 +1,34 @@
+﻿<Window x:Class="Junisha_CSharp_Zero_App0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Junisha_CSharp_Zero_App0"
+        mc:Ignorable="d"
+        Title="Junisha" WindowState="Maximized"
+        Height="450" Width="800">
+    <Grid Background="#222831">
+
+        <Image Source="/Resource/AppWallpaper.png" 
+               Stretch="Fill"
+               HorizontalAlignment="Stretch" 
+               VerticalAlignment="Stretch"/>
+
+        <Frame NavigationUIVisibility="Hidden"
+               Name="FrameBodyMain"/>
+
+        <Button x:Name="Btn_Exit" Visibility="Hidden" VerticalAlignment="Top" Margin="20 5" Content="Выйти">
+            <Button.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                    <Setter Property="Padding" Value="3"/>
+                    <Setter Property="Background" Value="#0076ABAE"/>
+                    <Setter Property="BorderBrush" Value="{StaticResource BtnBlueBrush}"/>
+                    <Setter Property="BorderThickness" Value="3"/>
+                    <Setter Property="Foreground" Value="#31363F"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        
+    </Grid>
+</Window>

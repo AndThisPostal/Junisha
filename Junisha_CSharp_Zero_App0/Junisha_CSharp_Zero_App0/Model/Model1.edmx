@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Хранилище JunishaDBModel" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CourseChapters">
+          <Key>
+            <PropertyRef Name="chapter_id" />
+          </Key>
+          <Property Name="chapter_id" Type="int" Nullable="false" />
+          <Property Name="chapter_title" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="chapter_content1" Type="varchar(max)" Nullable="false" />
+          <Property Name="chapter_content2" Type="varchar(max)" Nullable="false" />
+          <Property Name="chapter_content3" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Gender">
+          <Key>
+            <PropertyRef Name="gender_id" />
+          </Key>
+          <Property Name="gender_id" Type="int" Nullable="false" />
+          <Property Name="gender_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Progress">
+          <Key>
+            <PropertyRef Name="progress_id" />
+          </Key>
+          <Property Name="progress_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="user_id" Type="int" Nullable="false" />
+          <Property Name="chapter_id" Type="int" Nullable="false" />
+          <Property Name="progress_data" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="user_id" />
+          </Key>
+          <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="user_name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="user_pass" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="gender_id" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Progress_CourseChapters">
+          <End Role="CourseChapters" Type="Self.CourseChapters" Multiplicity="1" />
+          <End Role="Progress" Type="Self.Progress" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CourseChapters">
+              <PropertyRef Name="chapter_id" />
+            </Principal>
+            <Dependent Role="Progress">
+              <PropertyRef Name="chapter_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Progress_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Progress" Type="Self.Progress" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="user_id" />
+            </Principal>
+            <Dependent Role="Progress">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Users_Gender">
+          <End Role="Gender" Type="Self.Gender" Multiplicity="1" />
+          <End Role="Users" Type="Self.Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Gender">
+              <PropertyRef Name="gender_id" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="gender_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище JunishaDBModelContainer">
+          <EntitySet Name="CourseChapters" EntityType="Self.CourseChapters" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Gender" EntityType="Self.Gender" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Progress" EntityType="Self.Progress" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Progress_CourseChapters" Association="Self.FK_Progress_CourseChapters">
+            <End Role="CourseChapters" EntitySet="CourseChapters" />
+            <End Role="Progress" EntitySet="Progress" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Progress_Users" Association="Self.FK_Progress_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Progress" EntitySet="Progress" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Users_Gender" Association="Self.FK_Users_Gender">
+            <End Role="Gender" EntitySet="Gender" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="JunishaDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="JunishaDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CourseChapters" EntityType="JunishaDBModel.CourseChapters" />
+          <EntitySet Name="Gender" EntityType="JunishaDBModel.Gender" />
+          <EntitySet Name="Progress" EntityType="JunishaDBModel.Progress" />
+          <EntitySet Name="Users" EntityType="JunishaDBModel.Users" />
+          <AssociationSet Name="FK_Progress_CourseChapters" Association="JunishaDBModel.FK_Progress_CourseChapters">
+            <End Role="CourseChapters" EntitySet="CourseChapters" />
+            <End Role="Progress" EntitySet="Progress" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Users_Gender" Association="JunishaDBModel.FK_Users_Gender">
+            <End Role="Gender" EntitySet="Gender" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Progress_Users" Association="JunishaDBModel.FK_Progress_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Progress" EntitySet="Progress" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="CourseChapters">
+          <Key>
+            <PropertyRef Name="chapter_id" />
+          </Key>
+          <Property Name="chapter_id" Type="Int32" Nullable="false" />
+          <Property Name="chapter_title" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="chapter_content1" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="chapter_content2" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="chapter_content3" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Progress" Relationship="JunishaDBModel.FK_Progress_CourseChapters" FromRole="CourseChapters" ToRole="Progress" />
+        </EntityType>
+        <EntityType Name="Gender">
+          <Key>
+            <PropertyRef Name="gender_id" />
+          </Key>
+          <Property Name="gender_id" Type="Int32" Nullable="false" />
+          <Property Name="gender_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Users" Relationship="JunishaDBModel.FK_Users_Gender" FromRole="Gender" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Progress">
+          <Key>
+            <PropertyRef Name="progress_id" />
+          </Key>
+          <Property Name="progress_id" Type="Int32" Nullable="false" />
+          <Property Name="user_id" Type="Int32" Nullable="false" />
+          <Property Name="chapter_id" Type="Int32" Nullable="false" />
+          <Property Name="progress_data" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CourseChapters" Relationship="JunishaDBModel.FK_Progress_CourseChapters" FromRole="Progress" ToRole="CourseChapters" />
+          <NavigationProperty Name="Users" Relationship="JunishaDBModel.FK_Progress_Users" FromRole="Progress" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="user_id" />
+          </Key>
+          <Property Name="user_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="user_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="user_pass" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="gender_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Gender" Relationship="JunishaDBModel.FK_Users_Gender" FromRole="Users" ToRole="Gender" />
+          <NavigationProperty Name="Progress" Relationship="JunishaDBModel.FK_Progress_Users" FromRole="Users" ToRole="Progress" />
+        </EntityType>
+        <Association Name="FK_Progress_CourseChapters">
+          <End Type="JunishaDBModel.CourseChapters" Role="CourseChapters" Multiplicity="1" />
+          <End Type="JunishaDBModel.Progress" Role="Progress" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CourseChapters">
+              <PropertyRef Name="chapter_id" />
+            </Principal>
+            <Dependent Role="Progress">
+              <PropertyRef Name="chapter_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Users_Gender">
+          <End Type="JunishaDBModel.Gender" Role="Gender" Multiplicity="1" />
+          <End Type="JunishaDBModel.Users" Role="Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Gender">
+              <PropertyRef Name="gender_id" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="gender_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Progress_Users">
+          <End Type="JunishaDBModel.Users" Role="Users" Multiplicity="1" />
+          <End Type="JunishaDBModel.Progress" Role="Progress" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="user_id" />
+            </Principal>
+            <Dependent Role="Progress">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище JunishaDBModelContainer" CdmEntityContainer="JunishaDBEntities">
+          <EntitySetMapping Name="CourseChapters">
+            <EntityTypeMapping TypeName="JunishaDBModel.CourseChapters">
+              <MappingFragment StoreEntitySet="CourseChapters">
+                <ScalarProperty Name="chapter_content3" ColumnName="chapter_content3" />
+                <ScalarProperty Name="chapter_content2" ColumnName="chapter_content2" />
+                <ScalarProperty Name="chapter_content1" ColumnName="chapter_content1" />
+                <ScalarProperty Name="chapter_title" ColumnName="chapter_title" />
+                <ScalarProperty Name="chapter_id" ColumnName="chapter_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Gender">
+            <EntityTypeMapping TypeName="JunishaDBModel.Gender">
+              <MappingFragment StoreEntitySet="Gender">
+                <ScalarProperty Name="gender_name" ColumnName="gender_name" />
+                <ScalarProperty Name="gender_id" ColumnName="gender_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Progress">
+            <EntityTypeMapping TypeName="JunishaDBModel.Progress">
+              <MappingFragment StoreEntitySet="Progress">
+                <ScalarProperty Name="progress_data" ColumnName="progress_data" />
+                <ScalarProperty Name="chapter_id" ColumnName="chapter_id" />
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
+                <ScalarProperty Name="progress_id" ColumnName="progress_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="JunishaDBModel.Users">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="gender_id" ColumnName="gender_id" />
+                <ScalarProperty Name="user_pass" ColumnName="user_pass" />
+                <ScalarProperty Name="user_name" ColumnName="user_name" />
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

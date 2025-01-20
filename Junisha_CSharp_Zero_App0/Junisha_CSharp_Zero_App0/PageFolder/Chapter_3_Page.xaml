@@ -1,0 +1,192 @@
+﻿<Page x:Class="Junisha_CSharp_Zero_App0.PageFolder.Chapter_3_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Junisha_CSharp_Zero_App0.PageFolder"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Chapter_3_Page">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition Height="1*" MaxHeight="1000"/>
+            <RowDefinition Height="0.05*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.1*"/>
+            <ColumnDefinition Width="0.6*" MaxWidth="800"/>
+            <ColumnDefinition Width="0.1*"/>
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Row="1" Grid.Column="1">
+            <Border Margin="10" Padding="0" CornerRadius="10" Grid.Row="1" Grid.Column="1"
+                Background="#31363F"  BorderBrush="#76ABAE" BorderThickness="5">
+                <StackPanel>
+                    <StackPanel x:Name="Text_1_Block" Visibility="Visible">
+                        <TextBlock Foreground="#76ABAE" Text="Глава 3 – Функции" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+                        <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Помнишь в чём находились переменные в прошлом задании? Это была функция, в них как раз и происходит функционал программ. Их строение по сложнее, но не сильно:"/>
+                        <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            1.	Модификатор доступа – отвечает откуда её можно вызвать. Вот 4 основных. 
+Public – доступен из любого места.
+Protected – ограничен классом и его производными.
+Internal – ограничен текущей сборкой.
+Private – ограничен содержащим типом.
+"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            2.	Тип возвращаемого значения – после работы функции она возвращает данные в форме указанного типа. Например, вам нужно число = пишите Int, если вам не нужно возвращать значения пишите void."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            3.	Имя метода – по нему вы его и вызываете в других частях кода."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            4.	Параметры – это переменные что он принимает. Например, методе умножение будет брать два числа для этого."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            5.	Тело метода – содержится в фигурных скобках и является самим алгоритмом."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Как освоишь это сможешь делать примитивные программы, а сейчас парочка задач на закрепление:"/>
+
+                        <StackPanel x:Name="Question_1_Block" Visibility="Visible">
+                        <TextBlock Text="Задача первая:" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+                        <TextBlock Text="Что делают функции?" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontWeight="Light"/>
+                        <Button x:Name="Question1_True" Width="350" Margin="20 0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Выполняют часть кода в теле функции" Click="Question_1_Click">
+                            <Button.Resources>
+                                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                    <Setter Property="Padding" Value="3"/>
+                                    <Setter Property="Background" Value="#0076ABAE"/>
+                                    <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                    </Style>
+                            </Button.Resources>
+                        </Button>
+                        <Button x:Name="Question1_False_1" Width="350" Margin="20 0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Свою функцию" Click="Question_1_Click">
+                            <Button.Resources>
+                                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                    <Setter Property="Padding" Value="3"/>
+                                    <Setter Property="Background" Value="#0076ABAE"/>
+                                    <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                        <Button x:Name="Question1_False_2" Width="350" Margin="20 0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Обрабатывают значения" Click="Question_1_Click">
+                            <Button.Resources>
+                                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                    <Setter Property="Padding" Value="3"/>
+                                    <Setter Property="Background" Value="#0076ABAE"/>
+                                    <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                        <Button x:Name="Question1_False_3" Width="350" Margin="20 0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Что-то на эльфийском" Click="Question_1_Click">
+                            <Button.Resources>
+                                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                    <Setter Property="Padding" Value="3"/>
+                                    <Setter Property="Background" Value="#0076ABAE"/>
+                                    <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                    </StackPanel>
+
+                        <StackPanel x:Name="StackBlock4" Visibility="Hidden" Height="0">
+                            <TextBlock Name="Text4" Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center"
+                                   Margin="10" Width="650" FontSize="16"/>
+                            <StackPanel x:Name="Quest4" Visibility="Visible">
+                                <TextBlock Text="Собери свою функцию!" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+                                <TextBlock Text="Модификатор-Возврат-Имя-Параметры" Foreground="#76ABAE" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Light"/>
+
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <ComboBox Width="100" Name="ComboBox1" Foreground="{StaticResource BtnBlueBrush}" Margin="10"
+                                      BorderBrush="{StaticResource BtnBlueBrush}" Style="{StaticResource MaterialDesignOutlinedComboBox}">
+                                        <ComboBoxItem Content="Public"/>
+                                        <ComboBoxItem Content="Protect" IsSelected="True"/>
+                                        <ComboBoxItem Content="Internal"/>
+                                        <ComboBoxItem Content="Privat"/>
+                                    </ComboBox>
+
+                                    <ComboBox Width="100" Name="ComboBox2" Foreground="{StaticResource BtnBlueBrush}" Margin="10"
+                                      BorderBrush="{StaticResource BtnBlueBrush}" Style="{StaticResource MaterialDesignOutlinedComboBox}">
+                                        <ComboBoxItem Content="int"/>
+                                        <ComboBoxItem Content="string" IsSelected="True"/>
+                                        <ComboBoxItem Content="bool"/>
+                                        <ComboBoxItem Content="void"/>
+                                    </ComboBox>
+
+                                    <TextBox Text="NameFunction" Name="FunctionText" Foreground="{StaticResource BtnGreenBrush}" CaretBrush="{StaticResource BtnGreenBrush}" TextAlignment="Left"
+                                         SelectionBrush="{StaticResource BtnGreenBrush}" BorderThickness="1" BorderBrush="{StaticResource BtnGreenBrush}" Width="150" Height="50" Margin="10"/>
+
+                                    <ComboBox Width="100" Name="ComboBox3" Foreground="{StaticResource BtnBlueBrush}" Margin="10"
+                                      BorderBrush="{StaticResource BtnBlueBrush}" Style="{StaticResource MaterialDesignOutlinedComboBox}">
+                                        <ComboBoxItem Content="int"/>
+                                        <ComboBoxItem Content="string" IsSelected="True"/>
+                                        <ComboBoxItem Content="bool"/>
+                                    </ComboBox>
+                                </StackPanel>
+
+                                <TextBox Text="int" Name="FunctionExemple" Foreground="{StaticResource BtnGreenBrush}" Margin="10" CaretBrush="{StaticResource BtnGreenBrush}" TextAlignment="Center"
+                                         SelectionBrush="{StaticResource BtnGreenBrush}" BorderThickness="1" BorderBrush="{StaticResource BtnGreenBrush}" Width="450" Height="30"/>
+
+                                <Button x:Name="Question4_Check" Width="150" Margin="20 25" HorizontalAlignment="Left"
+                                    VerticalAlignment="Top" Content="Проверить" Click="Question4_Check_Click">
+                                    <Button.Resources>
+                                        <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                            <Setter Property="Padding" Value="3"/>
+                                            <Setter Property="Background" Value="#0076ABAE"/>
+                                            <Setter Property="BorderThickness" Value="3"/>
+                                            <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                            <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                                        </Style>
+                                    </Button.Resources>
+                                </Button>
+
+                                
+
+
+                            </StackPanel>
+                        </StackPanel>
+
+                        <StackPanel x:Name="Text_2_Block" Visibility="Hidden">
+                        <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            "/>
+                        <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Чудно-Чудно. Теперь это можно использовать для создания вашей первого приложения!"/>
+                            <Button x:Name="Btn_Next" Content=" Следущая глава " Margin="10" MinWidth="30" MinHeight="30" Grid.RowSpan="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Btn_Next_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                        <Setter Property="Padding" Value="3"/>
+                                        <Setter Property="Background" Value="#0076ABAE"/>
+                                        <Setter Property="BorderThickness" Value="3"/>
+                                        <Setter Property="Foreground" Value="{StaticResource BtnOrangeBrush}"/>
+                                        <Setter Property="BorderBrush" Value="{StaticResource BtnOrangeBrush}"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+
+                        </StackPanel>
+
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+        </ScrollViewer>
+
+
+
+        <Button x:Name="Btn_Back" Margin="10"
+                MinWidth="30" MinHeight="30" 
+                Grid.RowSpan="2" Grid.ColumnSpan="2"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="Btn_Back_Click">
+            <Button.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                    <Setter Property="Padding" Value="3"/>
+                    <Setter Property="Background" Value="#0076ABAE"/>
+                    <Setter Property="BorderBrush" Value="#76ABAE"/>
+                    <Setter Property="BorderThickness" Value="3"/>
+                </Style>
+            </Button.Resources>
+            <Image Source="/Resource/Undo-64 (1).png" HorizontalAlignment="Center"/>
+        </Button>
+
+    </Grid>
+</Page>

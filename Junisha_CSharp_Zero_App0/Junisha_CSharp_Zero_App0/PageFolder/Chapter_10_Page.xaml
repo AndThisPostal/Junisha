@@ -1,0 +1,121 @@
+﻿<Page x:Class="Junisha_CSharp_Zero_App0.PageFolder.Chapter_10_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Junisha_CSharp_Zero_App0.PageFolder"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Chapter_10_Page">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition Height="1*" MaxHeight="1000"/>
+            <RowDefinition Height="0.05*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.1*"/>
+            <ColumnDefinition Width="0.6*" MaxWidth="800"/>
+            <ColumnDefinition Width="0.1*"/>
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Row="1" Grid.Column="1">
+
+            <Border Margin="10" Padding="0" CornerRadius="10" Grid.Row="1" Grid.Column="1"
+                Background="#31363F"  BorderBrush="{StaticResource BtnBlueBrush}" BorderThickness="5">
+
+
+                <StackPanel>
+                    <TextBlock Foreground="{StaticResource BtnBlueBrush}" Name="ChapterName" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+
+                    <StackPanel x:Name="StackBlock1" Visibility="Visible" Height="auto">
+                        <TextBlock Name="Text1" Foreground="{StaticResource BtnBlueBrush}" TextWrapping="Wrap" HorizontalAlignment="Center"
+                                   Margin="10" Width="650" FontSize="16"/>
+                    </StackPanel>
+
+                    <StackPanel>
+                        <TextBlock Text="for i in range(1, n + 1):" Foreground="{StaticResource BtnGreenBrush}" HorizontalAlignment="Left" Margin="10" FontWeight="Light"/>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="if i %" Foreground="{StaticResource BtnGreenBrush}" HorizontalAlignment="Left" Margin="10" FontWeight="Light"/>
+                            <TextBox Text="int" Name="Textbox1" Foreground="{StaticResource BtnBlueBrush}" Margin="0 0" CaretBrush="{StaticResource BtnGreenBrush}" TextAlignment="Center"
+                                         SelectionBrush="{StaticResource BtnGreenBrush}" BorderThickness="1" BorderBrush="{StaticResource BtnBlueBrush}" Width="50" Height="25"/>
+                            <TextBlock Text="and i %" Foreground="{StaticResource BtnGreenBrush}" HorizontalAlignment="Left" Margin="10" FontWeight="Light"/>
+                            <TextBox Text="int" Name="Textbox2" Foreground="{StaticResource BtnBlueBrush}" Margin="0 0" CaretBrush="{StaticResource BtnGreenBrush}" TextAlignment="Center"
+                                         SelectionBrush="{StaticResource BtnGreenBrush}" BorderThickness="1" BorderBrush="{StaticResource BtnBlueBrush}" Width="50" Height="25"/>
+                        </StackPanel>
+                        <TextBlock Text="result.append('FizzBuzz')" Foreground="{StaticResource BtnGreenBrush}" HorizontalAlignment="Left" Margin="10" FontWeight="Light"/>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="if i %" Foreground="{StaticResource BtnGreenBrush}" HorizontalAlignment="Left" Margin="10" FontWeight="Light"/>
+                            <TextBox Text="int" Name="Textbox3" Foreground="{StaticResource BtnBlueBrush}" Margin="0 0" CaretBrush="{StaticResource BtnGreenBrush}" TextAlignment="Center"
+                                         SelectionBrush="{StaticResource BtnGreenBrush}" BorderThickness="1" BorderBrush="{StaticResource BtnBlueBrush}" Width="50" Height="25"/>
+                        </StackPanel>
+                        <TextBlock Text="result.append('Fizz')" Foreground="{StaticResource BtnGreenBrush}" HorizontalAlignment="Left" Margin="10" FontWeight="Light"/>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="if i %" Foreground="{StaticResource BtnGreenBrush}" HorizontalAlignment="Left" Margin="10" FontWeight="Light"/>
+                            <TextBox Text="int" Name="Textbox4" Foreground="{StaticResource BtnBlueBrush}" Margin="0 0" CaretBrush="{StaticResource BtnGreenBrush}" TextAlignment="Center"
+                                         SelectionBrush="{StaticResource BtnGreenBrush}" BorderThickness="1" BorderBrush="{StaticResource BtnBlueBrush}" Width="50" Height="25"/>
+                        </StackPanel>
+                        <TextBlock Text="result.append('Buzz')" Foreground="{StaticResource BtnGreenBrush}" HorizontalAlignment="Left" Margin="10" FontWeight="Light"/>
+                        <TextBlock Text="else:" Foreground="{StaticResource BtnGreenBrush}" HorizontalAlignment="Left" Margin="10" FontWeight="Light"/>
+                        <TextBlock Text="result.append(i)" Foreground="{StaticResource BtnGreenBrush}" HorizontalAlignment="Left" Margin="10" FontWeight="Light"/>
+                        <TextBlock Text="return result" Foreground="{StaticResource BtnGreenBrush}" HorizontalAlignment="Left" Margin="10" FontWeight="Light"/>
+                        
+                    </StackPanel>
+                    <StackPanel/>
+
+                    <Button x:Name="Question2_Check" Width="150" Margin="20 25" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Проверить" Click="Question2_Check_Click">
+                        <Button.Resources>
+                            <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                <Setter Property="Padding" Value="3"/>
+                                <Setter Property="Background" Value="#0076ABAE"/>
+                                <Setter Property="BorderThickness" Value="3"/>
+                                <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
+                    <StackPanel x:Name="StackBlock2" Visibility="Hidden" Height="0">
+                        <TextBlock Name="Text2" Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center"
+                                   Margin="10" Width="650" FontSize="16"/>
+                    </StackPanel>
+
+
+                    <Button x:Name="Btn_Next" Content=" Следущая глава " Margin="10" MinWidth="30" MinHeight="30" Grid.RowSpan="2"
+                            Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Btn_Next_Click" Visibility="Hidden" >
+                        <Button.Resources>
+                            <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                <Setter Property="Padding" Value="3"/>
+                                <Setter Property="Background" Value="#0076ABAE"/>
+                                <Setter Property="BorderThickness" Value="3"/>
+                                <Setter Property="Foreground" Value="{StaticResource BtnOrangeBrush}"/>
+                                <Setter Property="BorderBrush" Value="{StaticResource BtnOrangeBrush}"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
+                </StackPanel>
+            </Border>
+        </ScrollViewer>
+
+        <Button x:Name="Btn_Back" Margin="10"
+                MinWidth="30" MinHeight="30" 
+                Grid.RowSpan="2" Grid.ColumnSpan="2"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="Btn_Back_Click">
+            <Button.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                    <Setter Property="Padding" Value="3"/>
+                    <Setter Property="Background" Value="#0076ABAE"/>
+                    <Setter Property="BorderBrush" Value="{StaticResource BtnBlueBrush}"/>
+                    <Setter Property="BorderThickness" Value="3"/>
+                </Style>
+            </Button.Resources>
+            <Image Source="/Resource/Undo-64 (1).png" HorizontalAlignment="Center"/>
+        </Button>
+
+    </Grid>
+</Page>

@@ -1,0 +1,89 @@
+﻿<Page x:Class="Junisha_CSharp_Zero_App0.PageFolder.Chapter_8_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Junisha_CSharp_Zero_App0.PageFolder"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Chapter_8_Page">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition Height="1*" MaxHeight="1000"/>
+            <RowDefinition Height="0.05*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.1*"/>
+            <ColumnDefinition Width="0.6*" MaxWidth="800"/>
+            <ColumnDefinition Width="0.1*"/>
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Row="1" Grid.Column="1">
+            <Border Margin="10" Padding="0" CornerRadius="10" Grid.Row="1" Grid.Column="1"
+                Background="#31363F"  BorderBrush="#76ABAE" BorderThickness="5">
+                <StackPanel Margin="10" x:Name="Text_1_Block" Visibility="Visible">
+                    <TextBlock Foreground="#76ABAE" Text="Глава 8 – Массивы" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Массивы весьма интересная вещь, по сути своей это целая пачка переменных в одной.
+Зачем это нужно? По-хорошему у тебя не должно быть этого вопроса, тк при создании программ с кучей переменных скорее начинаешь думать, как это сделать компактнее и проще.
+"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Тут на помощь и приходят массивы – никаких 15и переменных и с каждой, из которых нужно взаимодействовать, ну почти – без знания циклов вам придётся отчасти это делать ручками. Так что давай сделаем небольшой массив и парочку манипуляций с ним."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Для создания массива вам нужно создать его:"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Указать его тип, как и обычной переменной, квадратные скобки и его имя."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Равно, вновь тип, но уже для самих значений, что будут в фигурных скобках через запятую."/>
+                    <Image Source="/Resource/Image/Mass_1.png" Margin="40"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Или так, в принципе итог будет один и тот же."/>
+
+                    <TextBlock Text="string[] words = { };" Foreground="{StaticResource BtnGreenBrush}" 
+                               HorizontalAlignment="Center" Margin="10" FontWeight="DemiBold" Name="TextBlock1"/>
+                    <TextBox Text="int" Name="Textbox1" Foreground="{StaticResource BtnGreenBrush}" Margin="0 0" CaretBrush="{StaticResource BtnGreenBrush}" TextAlignment="Center"
+                                         SelectionBrush="{StaticResource BtnGreenBrush}" BorderThickness="1" BorderBrush="{StaticResource BtnGreenBrush}" Width="50" Height="25"/>
+                    <Button x:Name="Question2_Check" Width="150" Margin="20 25" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Добавить" Click="Question2_Check_Click_1">
+                        <Button.Resources>
+                            <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                <Setter Property="Padding" Value="3"/>
+                                <Setter Property="Background" Value="#0076ABAE"/>
+                                <Setter Property="BorderThickness" Value="3"/>
+                                <Setter Property="Foreground" Value="{StaticResource BtnGrayBrush}"/>
+                                <Setter Property="BorderBrush" Value="{StaticResource BtnGrayBrush}"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
+
+                    <TextBlock Foreground="#76ABAE" Visibility="Hidden" Height="1" Name="last_text" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Готово! Теперь для призыва определённого значения напиши имя и слитно в квадратных скобках цифру. Счёт элемента начинается с нуля. Всё остальное как у обычной переменной с данным типом значений. Цифры вычитаются, Строки складываются, Логика пылится."/>
+                    <Button x:Name="Btn_Next" Content=" Следущая глава " Visibility="Hidden" Margin="10" MinWidth="30" MinHeight="30" Grid.RowSpan="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Btn_Next_Click">
+                        <Button.Resources>
+                            <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                <Setter Property="Padding" Value="3"/>
+                                <Setter Property="Background" Value="#0076ABAE"/>
+                                <Setter Property="BorderThickness" Value="3"/>
+                                <Setter Property="Foreground" Value="{StaticResource BtnOrangeBrush}"/>
+                                <Setter Property="BorderBrush" Value="{StaticResource BtnOrangeBrush}"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </StackPanel>
+            </Border>
+        </ScrollViewer>
+
+        <Button x:Name="Btn_Back" Margin="10"
+                MinWidth="30" MinHeight="30" 
+                Grid.RowSpan="2" Grid.ColumnSpan="2"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="Btn_Back_Click">
+            <Button.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                    <Setter Property="Padding" Value="3"/>
+                    <Setter Property="Background" Value="#0076ABAE"/>
+                    <Setter Property="BorderBrush" Value="{StaticResource BtnBlueBrush}"/>
+                    <Setter Property="BorderThickness" Value="3"/>
+                </Style>
+            </Button.Resources>
+            <Image Source="/Resource/Undo-64 (1).png" HorizontalAlignment="Center"/>
+        </Button>
+    </Grid>
+</Page>

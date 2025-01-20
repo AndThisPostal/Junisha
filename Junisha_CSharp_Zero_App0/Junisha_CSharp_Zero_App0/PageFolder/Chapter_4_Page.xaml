@@ -1,0 +1,125 @@
+﻿<Page x:Class="Junisha_CSharp_Zero_App0.PageFolder.Chapter_4_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Junisha_CSharp_Zero_App0.PageFolder"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Chapter_4_Page">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition Height="1*" MaxHeight="1000"/>
+            <RowDefinition Height="0.05*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.1*"/>
+            <ColumnDefinition Width="0.6*" MaxWidth="800"/>
+            <ColumnDefinition Width="0.1*"/>
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Row="1" Grid.Column="1">
+
+            <Border Margin="10" Padding="0" CornerRadius="10" Grid.Row="1" Grid.Column="1"
+                Background="#31363F"  BorderBrush="{StaticResource BtnBlueBrush}" BorderThickness="5">
+
+                <StackPanel Margin="10" x:Name="Text_1_Block" Visibility="Visible">
+                    <TextBlock Foreground="{StaticResource BtnBlueBrush}" Name="ChapterName" HorizontalAlignment="Center" Margin="10" FontSize="20" FontWeight="Bold"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Итак! У тебя есть вся база для создания своего первого приложения! УРА!!"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Оно будет в консоли без визуала и весьма ограничена… Но это мы решим в следующих главах.
+А сейчас открывай Visual Studio (Если её нету то СКАЧАЙ) и создай новый проект по картинкам ниже:
+"/>
+
+                    <Button Click="Btn_Link" Height="80">
+                        <Button.Template>
+                            <ControlTemplate>
+                                <Image Source="/Resource/Image/download-1.png" Width="150"/>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <Image Source="/Resource/q1.png" Margin="50 10"/>
+                    <Image Source="/Resource/q2.png" Margin="50 10"/>
+                    <Image Source="/Resource/q3.png" Margin="50 10"/>
+
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Чудно, добро пожаловать в пустое приложение. Почти, как можете заметить тут есть одно из двух функций что мы будем использовать. У C# есть множество встроенных функций для работы приложения, так что не всё вам нужно прописывать и даже изучать."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Да и первый метод тоже, в нём будут находиться все остальные твои методы, главное соблюдай иерархию с помощью фигурных скобок (они соединяются между собой пунктиром)"/>
+
+                    <Image Source="/Resource/q4.png" Margin="50 10"/>
+
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Первая функция, что уже есть по умолчанию – написание текста в консоль, если вы запустите приложение (зелёный плей сверху или комбинация Ctrl+F5) то вы получите легендарную фразу."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Вторая функция - это приём вашей строки - Console.ReadLine();
+Просто скопируй её от сюда и напиши её перед новым миром.
+"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Хм… Да это вообще никак не меняет поведение программы… Давай добавим переменную что будет брать твою строку и возвращать ей же тебе!"/>
+
+                    <Image Source="/Resource/q5.png" Margin="50 10"/>
+
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Как помнишь методы могут возвращать значения, в случае ReadLine это строка и её сразу можно присвоить переменной и потом её же использовать для WriteLine тк она просто принимает string, а печатаешь ли ты это заранее или в переменной – методу не важно!"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Как пример, можешь добавить текст к вводимому тобой: "/>
+
+                    <Image Source="/Resource/q6.png" Margin="50 10"/>
+
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Чудно, твоё первое приложение хоть как-то может взаимодействовать с миром! И как я и обещал пора тебе создать калькулятор. Поступи как ленивая жопа и скопируй уже созданое на прошлом задании, и по хорошему не поленись создать документик со скриптами и их описанием, чтоб не стопориться на том что уже делал ранее."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Итак!! Ты украл, у себя же, 4 метода для основных операций над числами. Дальше тебе нужно сделать такую конструкцию:"/>
+
+                    <Image Source="/Resource/q7.png" Margin="50 10"/>
+
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Итак!! Ты украл, у себя же, 4 метода для основных операций над числами. Дальше тебе нужно сделать такую конструкцию:"/>
+
+                    <Image Source="/Resource/q8.png" Margin="50 10"/>
+
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Так будет удобнее работать с приложением) Теперь пора использовать наши методы!"/>
+
+                    <Image Source="/Resource/q9.png" Margin="50 10"/>
+
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Есть шанс что вы сделали так… По красным подчёркиванием вы можете понять что это ошибки. Причина этого описана в первой глава – разные типы конфликтуют! В нашем случае мы пытаемся ввести строку в инты. Хотя чтоб это работало не нужно сильно париться:"/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            -	Замени стринги на инты. 
+-	Положи ReadLine в схобки int.Parse() - Он преобразует в инты строки.
+"/>
+
+                    <Image Source="/Resource/q10.png" Margin="50 10"/>
+
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            А теперь сделаем тоже самое для остальных 3 метода."/>
+
+                    <Image Source="/Resource/q11.png" Margin="50 10"/>
+
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            Вот и всё! У тебя есть… Странный калькулятор? Ладно в следующий раз сделаем так, чтоб ты мог выбирать что за функцию о будет делать."/>
+                    <TextBlock Foreground="#76ABAE" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" Width="650" FontSize="16" Text="            "/>
+                    <Button x:Name="Btn_Next" Content=" Следущая глава " Margin="10" MinWidth="30" MinHeight="30" Grid.RowSpan="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Btn_Next_Click">
+                        <Button.Resources>
+                            <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                                <Setter Property="Padding" Value="3"/>
+                                <Setter Property="Background" Value="#0076ABAE"/>
+                                <Setter Property="BorderThickness" Value="3"/>
+                                <Setter Property="Foreground" Value="{StaticResource BtnOrangeBrush}"/>
+                                <Setter Property="BorderBrush" Value="{StaticResource BtnOrangeBrush}"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
+                </StackPanel>
+            </Border>
+        </ScrollViewer>
+
+        <Button x:Name="Btn_Back" Margin="10"
+                MinWidth="30" MinHeight="30" 
+                Grid.RowSpan="2" Grid.ColumnSpan="2"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="Btn_Back_Click">
+            <Button.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                    <Setter Property="Padding" Value="3"/>
+                    <Setter Property="Background" Value="#0076ABAE"/>
+                    <Setter Property="BorderBrush" Value="{StaticResource BtnBlueBrush}"/>
+                    <Setter Property="BorderThickness" Value="3"/>
+                </Style>
+            </Button.Resources>
+            <Image Source="/Resource/Undo-64 (1).png" HorizontalAlignment="Center"/>
+        </Button>
+    </Grid>
+</Page>

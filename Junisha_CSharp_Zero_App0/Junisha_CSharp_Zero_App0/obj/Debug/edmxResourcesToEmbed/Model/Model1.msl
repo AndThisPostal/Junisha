@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище JunishaDBModelContainer" CdmEntityContainer="JunishaDBEntities">
+    <EntitySetMapping Name="CourseChapters">
+      <EntityTypeMapping TypeName="JunishaDBModel.CourseChapters">
+        <MappingFragment StoreEntitySet="CourseChapters">
+          <ScalarProperty Name="chapter_content3" ColumnName="chapter_content3" />
+          <ScalarProperty Name="chapter_content2" ColumnName="chapter_content2" />
+          <ScalarProperty Name="chapter_content1" ColumnName="chapter_content1" />
+          <ScalarProperty Name="chapter_title" ColumnName="chapter_title" />
+          <ScalarProperty Name="chapter_id" ColumnName="chapter_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gender">
+      <EntityTypeMapping TypeName="JunishaDBModel.Gender">
+        <MappingFragment StoreEntitySet="Gender">
+          <ScalarProperty Name="gender_name" ColumnName="gender_name" />
+          <ScalarProperty Name="gender_id" ColumnName="gender_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Progress">
+      <EntityTypeMapping TypeName="JunishaDBModel.Progress">
+        <MappingFragment StoreEntitySet="Progress">
+          <ScalarProperty Name="progress_data" ColumnName="progress_data" />
+          <ScalarProperty Name="chapter_id" ColumnName="chapter_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="progress_id" ColumnName="progress_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="JunishaDBModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="gender_id" ColumnName="gender_id" />
+          <ScalarProperty Name="user_pass" ColumnName="user_pass" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
